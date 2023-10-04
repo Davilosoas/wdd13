@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Site Plan</title>
+    <link type="text/css" rel="stylesheet" href="styles/site-plan-rafting.css">
+    <style type="text/css">
+        iframe#teal-job-tracker-iframe-stable {
+            min-width: 380px !important;
+            width: 380px !important;
+            min-height: 100vh !important;
+            height: 100vh !important;
+        }
+    </style>
+    <style type="text/css">
+        .vue-notification-group {
+            display: block;
+            position: fixed;
+            z-index: 5000
+        }
+
+        .vue-notification-wrapper {
+            display: block;
+            overflow: hidden;
+            width: 100%;
+            margin: 0;
+            padding: 0
+        }
+
+        .notification-title {
+            font-weight: 600
+        }
+
+        .vue-notification-template {
+            background: #fff
+        }
+
+        .vue-notification,
+        .vue-notification-template {
+            display: block;
+            box-sizing: border-box;
+            text-align: left
+        }
+
+        .vue-notification {
+            font-size: 12px;
+            padding: 10px;
+            margin: 0 5px 5px;
+            color: #fff;
+            background: #44a4fc;
+            border-left: 5px solid #187fe7
+        }
+
+        .vue-notification.warn {
+            background: #ffb648;
+            border-left-color: #f48a06
+        }
+
+        .vue-notification.error {
+            background: #e54d42;
+            border-left-color: #b82e24
+        }
+
+        .vue-notification.success {
+            background: #68cd86;
+            border-left-color: #42a85f
+        }
+
+        .vn-fade-enter-active,
+        .vn-fade-leave-active,
+        .vn-fade-move {
+            transition: all .5s
+        }
+
+        .vn-fade-enter,
+        .vn-fade-leave-to {
+            opacity: 0
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Wet Water Rafting Site Plan</h1>
+        <h2>Davi Oliveira</h2>
+        <h2>WDD 130-01</h2>
+        <!-- In the header above, add the name of your site, your name and class number. For example if you are in section 3 you would put WDD 130-03 -->
+    </header>
+    <main>
+        <!-- ------------------------Steps 2-5------------------------------ -->
+        <hr>
+        <h2>Overview</h2>
+        <h3>Purpose</h3>
+        <p>We want you to have the best rafting experience of your life. Take a look on our websites and have a glimpse of what we can offer to you!</p>
+        <!-- change this -->
+
+        <h3>Audience</h3>
+        <p>If you are a radical sport enthusiast or want to try something different, this is your place!</p>
+        <!-- change this -->
+
+        <hr>
+        <h2>Branding</h2>
+        <h3>Website Logo</h3>
+        <!-- Replace this with some sort of logo for your site.  A logo can be as simple as the name of your site in a nice font :) -->
+        <img src="https://byui-wdd.github.io/wdd130/rafting_images/dryoarlogo.png" alt="Logo image">
+        <hr>
+        <h2>Style Guide</h2>
+
+        <!-- ------------------------Steps 6-9------------------------------ -->
+
+        <h3>Color Palette</h3>
+        <!--  The colors you choose for a website are one of the most important decisions you will make. Follow the instructions on the activity in Canvas then return and replace the color codes below with the hex color codes (the 6 digit numbers that show at the bottom of each color) for the colors you have chosen below.  You should have at least 2 colors but do not have to fill in all 4 if you do not need them.  -->
+
+        <!-- Copy and paste the URL to your finished palette below. Replace the href value that is there with yours. Make sure to paste it into both the href value and the content text of the <a> tag -->
+        <p>Palette URL:</p>
+        <a href="https://coolors.co/5d737e-64b6ac-c0fdfb-daffef-fcfffd"
+            target="_blank">https://coolors.co/5d737e-64b6ac-c0fdfb-daffef-fcfffd</a>
+
+        <table class="colors">
+            <tbody>
+                <tr>
+                    <th>Primary</th>
+                    <th>Secondary</th>
+                    <th>Accent 1</th>
+                    <th>Accent 2</th>
+                </tr>
+                <!-- Replace the numbers in the boxes below with your hex color codes. Then switch to the site-plan.css file and change your colors there as well. -->
+                <tr>
+                    <td class="primary">#5d737e</td>
+                    <td class="secondary">#64b6ac</td>
+                    <td class="accent1">#c0fdfb</td>
+                    <td class="accent2">#daffef</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- ------------------------Steps 10-12------------------------------ -->
+
+        <h3>Typography</h3>
+        <!-- Choose a font for your paragraphs (body copy) and headlines. What font(s) have you chosen? Think also about which of your colors above you might use for background and font colors. -->
+
+        <h4>
+            Heading Font: Pacifico
+            <!-- change this -->
+        </h4>
+        <h4>
+            Paragraph Font: Playfair Display
+            <!-- change this -->
+        </h4>
+        <h3>Normal paragraph example</h3>
+        <p>
+            The best Whitewater Rafting in Colorado, White Water Rafting Company
+            offers rafting on the Colorado and Roaring Fork Rivers in Glenwood
+            Springs. Since 1974, we have been family owned and operated, rafting the
+            Shoshone section of Glenwood Canyon and beyond.
+        </p>
+        <h3>Colored paragraph example</h3>
+        <p class="colored">
+            Trips vary from mild and great for families, to trips exclusively for
+            physically fit and experienced rafters. No matter what type of river
+            adventures you are seeking, White Water Rafting Company can make it
+            happen for you.
+        </p>
+
+        <!-- ------------------------Step 13------------------------------ -->
+
+        <h3>Navigation</h3>
+        <!-- Think about how you want your navigation bar to look. In the site-plan.css file change the colors to your colors to get the look you desire. -->
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Page2</a>
+            <a href="#">Contact Us</a>
+        </nav>
+        <hr>
+        <h2>Site Map</h2>
+        <div class="sitemap">
+            <div class="sm-home">Home</div>
+            <div class="sm-page2">
+                [Page2]
+                <!-- this page will have a name later -->
+            </div>
+            <div class="sm-page3">Contact Us</div>
+
+            <div class="top">&nbsp;</div>
+            <div class="left">&nbsp;</div>
+            <div class="right">&nbsp;</div>
+        </div>
+        <hr>
+        <h2>Wireframes</h2>
+        <!-- Create an additional wireframe for your site. List it here below the Home page wireframe. -->
+
+        <h3>Home</h3>
+
+        <img src="https://byui-wdd.github.io/wdd130/rafting_images/wireframe_home.png" alt="home page wireframe">
+
+        <h3>[Page 2]</h3>
+
+        <!-- <img src="#" alt="page 2 wireframe"> -->
+    </main>
+
+
+    <div id="teal-job-tracker-root-stable" style="z-index: 2147483647;"><iframe id="teal-job-tracker-iframe-stable"
+            srcdoc="<!DOCTYPE html><html><head></head><body><div class=&quot;frame-root&quot;></div></body></html>"
+            style="background: rgb(255, 255, 255) !important; width: 380px !important; height: 100vh !important; position: fixed !important; inset: 0px -380px auto auto !important; z-index: 2147483647 !important; border: 0px !important; box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 16px -3px !important; transition: right 0.25s ease-in-out 0s !important; transform: none !important;"></iframe>
+    </div>
+    <div id="teal-job-tracker-companion-root-stable"
+        style="display: block; z-index: 2147483646; bottom: 58px; right: 0px; position: fixed; height: 60px;"></div>
+</body>
+
+</html>
